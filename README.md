@@ -11,18 +11,18 @@ npm install --save view-render
 ## usage
 
 ```
-var v = views(__dirname + '/views/', { 
+var views = require('view-render')(__dirname + '/views/', { 
   template: handlebars.compile 
 })
 ```
 
 ## api
 
-### `v.render(filename, data)`
+### `views.render(filename, data)`
 
 Returns string of compiled html.
 
-### `v.all()`
+### `views.all()`
 
 Object of all views.
 
