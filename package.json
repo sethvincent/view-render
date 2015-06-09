@@ -1,0 +1,23 @@
+{
+  "name": "view-render",
+  "description": "",
+  "version": "1.0.0",
+  "repository": {
+    "url": "git://github.com/sethvincent/view-render.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/index.js",
+    "start": ""
+  },
+  "dependencies": {
+    "each-async": "^1.1.1",
+    "extend": "^2.0.1"
+  },
+  "devDependencies": {
+    "handlebars": "^3.0.3",
+    "tap-spec": "^4.0.0",
+    "tape": "^4.0.0"
+  },
+  "license": "MIT"
+}
